@@ -1,0 +1,25 @@
+@media (max-width: 1024px) {
+    #nav-menu {
+        display: none; 
+        position: absolute;
+        top: 4rem;
+        right: 1rem;
+        flex-direction: column; 
+        background: white;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        padding: 1rem;
+        border-radius: 0.5rem;
+        z-index: 1000;
+        width: 100%;
+        
+    }
+    #nav-menu.active {
+        display: flex; 
+        justify-content: space-around;
+        height: 200PX;
+        transition-duration: 700ms;
+    }
+    #nav-menu li {
+        margin: 0.5rem 0;
+    }
+}
